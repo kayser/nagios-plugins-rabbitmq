@@ -10,8 +10,7 @@ Homepage: http://search.cpan.org/dist/nagios-plugins-rabbitmq/
 
 Package: nagios-plugins-rabbitmq
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}, libjson-perl (>= 2.12),
- liburi-perl (>= 1.35), libwww-perl, perl
+Depends: ${misc:Depends}, ${perl:Depends}, libjson-perl (>= 2.12), liburi-perl (>= 1.35), libwww-perl, perl, libnagios-plugin-perl
 Description: a set of nagios checks for RabbitMQ using the management interface
  This package contains a set of nagios checks useful for monitoring a RabbitMQ server.
  They use the RabbitMQ management interface with is over HTTP and therefore have a very

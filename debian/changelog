@@ -1,3 +1,9 @@
+nagios-plugins-rabbitmq (1.0.4-2) stable; urgency=low
+
+  * add libnagios-plugin-perl to depends
+
+ -- Robin Wittler <r.wittler@mysportgroup.de>  Fri, 18 Jan 2013 17:29:23 +0100
+
 nagios-plugins-rabbitmq (1.0.4-1) stable; urgency=low
 
   * Initial Release.
