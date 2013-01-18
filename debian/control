@@ -1,4 +1,4 @@
-Source: libnagios-plugins-rabbitmq-perl
+Source: nagios-plugins-rabbitmq
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7), perl
@@ -8,11 +8,11 @@ Maintainer: Robin Wittler <r.wittler@mysportgroup.de>
 Standards-Version: 3.9.1
 Homepage: http://search.cpan.org/dist/nagios-plugins-rabbitmq/
 
-Package: libnagios-plugins-rabbitmq-perl
+Package: nagios-plugins-rabbitmq
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}, libjson-perl (>= 2.12),
  liburi-perl (>= 1.35), libwww-perl, perl
 Description: a set of nagios checks for RabbitMQ using the management interface
  This package contains a set of nagios checks useful for monitoring a RabbitMQ server.
  They use the RabbitMQ management interface with is over HTTP and therefore have a very
-  light profile on the nagios server.
+ light profile on the nagios server.

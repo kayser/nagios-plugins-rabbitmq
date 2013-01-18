@@ -1,0 +1,2 @@
+scripts/* usr/lib/nagios/plugins/
+debian/configs/* etc/nagios-plugins/config/
